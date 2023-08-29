@@ -29,5 +29,7 @@ export const otroSlice = createSlice({
 
      
 export const {guardarMiNombre} = origenSlice.actions;
+export const {agregarUnValor} = origenSlice.actions;
+export const {eliminarUnValor} = origenSlice.actions;
 export const {incrementarPuntuacion} = otroSlice.actions;
 export const { modificarUnValor} = otroSlice.actions;
